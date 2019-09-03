@@ -81,6 +81,16 @@
   
   a:link, a:visited {color:inherit;}
   a:hover {scale: 110%;}
+  img a:hover {scale: 110%;}
+  
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.05); 
+}
+  
   
   p {font-size: 20px;}
   .margin {margin-bottom: 45px;}
@@ -126,7 +136,7 @@
       letter-spacing: 5px;
   }
   .navbar-nav  li a:hover {
-      color: #1abc9c !important;
+      color: #1abc9c !important; scale: 110%;
   }
   /* centered columns styles */
   .row-centered {
@@ -171,7 +181,7 @@
 
 <!-- Container: title -->
 <div class="container-fluid-10 bg-0 text-center">
-  <h1 class="margin">Kursai bei konspektai</h1>
+  <h1 class="margin">Kursai</h1>
 </div>
 
 
@@ -182,12 +192,12 @@
   <h3 class="margin">Vykstantys</h3>
   <div class="row row-centered">
   
-    <div class="col-sm-4 col-centered">
+    <div class="col-sm-4 col-centered zoom">
       <a href="https://mokymai.github.io/r-2019"> 
           <!-- <img src="https://mokymai.github.io/pratybos/fig/logo-biostat-4cr-faded.png"  -->
 		  <img src="fig/logo-R.png" 
                class="center-block margin" 
-               style="width:60%" 
+               style="width:57%" 
                alt="analize-2019">
       
       <p>Įvadas į duomenų analizę programa „R“<br>(2019)</p>
@@ -195,18 +205,35 @@
       
     </div>
     
-    <div class="col-sm-4 col-centered">
+    <div class="col-sm-4 col-centered zoom">
       <a href="https://mokymai.github.io/analize-2019"> 
           <!-- <img src="https://mokymai.github.io/pratybos/fig/logo-biostat-4cr-faded.png"  -->
 		  <img src="fig/logo-biostat-4cr.png" 
                class="center-block img-circle margin" 
-               style="width:70%" 
+               style="width:65%" 
                alt="analize-2019">
       
       <p>Duomenų analizės pagrindai<br>(2019)</p>
 	  </a>
       
     </div>
+    
+    
+        </div>
+    <!--
+    <div class="col-sm-4 col-centered zoom">
+      <a href="https://mokymai.github.io/rcmdr-2019"> 
+           <img src="https://mokymai.github.io/pratybos/fig/logo-biostat-4cr-faded.png"  
+		  <img src="fig/logo-biostat-4cr.png" 
+               class="center-block img-circle margin" 
+               style="width:65%" 
+               alt="analize-2019">
+      
+      <p>R Commander<br>(2019)</p>
+	  </a>
+      
+    </div>
+    -->
     
     
   </div>
@@ -222,7 +249,7 @@
       <a href="https://mokymai.github.io/biostatistika-2019"> 
           <!-- <img src="https://mokymai.github.io/pratybos/fig/logo-biostat-4cr-faded.png"  -->
 		  <img src="fig/logo-biostat-4cr.png" 
-               class="center-block img-circle margin" 
+               class="center-block img-circle margin zoom" 
                style="width:35%" 
                alt="Biostatistika-2019">
       
@@ -234,7 +261,7 @@
     <div class="col-sm-4 col-centered">
        <a href="https://mokymai.github.io/r-2018"> 
           <img src="fig/logo-R.png"
-               class="center-block margin" 
+               class="center-block margin zoom" 
                style="width:30%" 
                alt="R-2018">
        
@@ -247,7 +274,7 @@
       <a href="https://mokymai.github.io/pratybos-biostatistika-2018"> 
           <img src="https://mokymai.github.io/pratybos/fig/logo-biostat-4cr-faded.png"  
 		  <img src="fig/logo-biostat-4cr.png" 
-               class="center-block img-circle margin" 
+               class="center-block img-circle margin zoom" 
                style="width:35%" 
                alt="Biostatistika-2018">
       
@@ -259,7 +286,7 @@
     <div class="col-sm-4 col-centered">
        <a href="https://mokymai.github.io/pratybos-r-2017"> 
           <img src="fig/logo-R-2.png"
-               class="center-block img-circle margin" 
+               class="center-block img-circle margin zoom" 
                style="width:35%" 
                alt="R-2017">
        
