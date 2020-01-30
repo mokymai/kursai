@@ -1,1 +1,1 @@
-Tinklapio nuoroda: https://mokymai.github.io/pratybos
+Svetainės nuoroda: https://mokymai.github.io/kursai
