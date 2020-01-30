@@ -78,42 +78,42 @@
       line-height: 1.8;
       color: #f5f6f7;
   }
-  
+
   a:link, a:visited {color:inherit;}
   a:hover {scale: 110%;}
   img a:hover {scale: 110%;}
-  
+
 .zoom {
   transition: transform .2s; /* Animation */
 }
 
 .zoom:hover {
-  transform: scale(1.05); 
+  transform: scale(1.05);
 }
-  
+
 p {font-size: 20px;}
   .margin {margin-bottom: 45px;}
-  .bg-0 { 
+  .bg-0 {
       background-color: #202025; /* Green */
       color: #ffffff;
   }
-  .bg-1 { 
+  .bg-1 {
       background-color: #1abc9c; /* Green */
       color: #ffffff;
   }
-  .bg-2 { 
+  .bg-2 {
       background-color: #474e5d; /* Dark Blue */
       color: #ffffff;
   }
-  .bg-3 { 
+  .bg-3 {
       background-color: #ffffff; /* White */
       color: #555555;
   }
-  .bg-4 { 
+  .bg-4 {
       background-color: #2f2f2f; /* Black Gray */
       color: #fff;
   }
-  .bg-5 { 
+  .bg-5 {
       background-color: #2f2f4f; /* Black Gray */
       color: #fff;
   }
@@ -144,11 +144,11 @@ p {font-size: 20px;}
   .col-centered {
     display:inline-block;
     float:none;
-    /* reset the text-align 
+    /* reset the text-align
     text-align:left;*/
     /* inline-block space fix */
     margin-right:-4px;
-  }  
+  }
   </style>
 </head>
 
@@ -159,15 +159,15 @@ p {font-size: 20px;}
 <!-- <nav class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" 
-              class="navbar-toggle" 
-              data-toggle="collapse" 
+      <button type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
               data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+        <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Semestras</a> 
+      <a class="navbar-brand" href="#">Semestras</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -180,67 +180,43 @@ p {font-size: 20px;}
 
 <!-- Container: title -->
 <div class="container-fluid-10 bg-0 text-center">
-  <h1 class="margin">Konspektai</h1>
+  <h1 class="margin">Mokomoji medžiaga</h1>
 </div>
-
-
 
 <!-- Container: A -->
 
 <div class="container-fluid bg-2 text-center" id="buves">
-  <h3 class="margin">Vykstantys kursai</h3>
+  <!-- <h3 class="margin">Rengiami kursai</h3>-->
   <div class="row row-centered">
-  
-    <div class="col-sm-4 col-centered zoom">
-      <a href="https://mokymai.github.io/analize-2019"> 
-          <!-- <img src="https://mokymai.github.io/pratybos/fig/logo-biostat-4cr-faded.png"  -->
-		  <img src="fig/logo-biostat-4cr.png" 
-               class="center-block img-circle margin" 
-               style="width:65%" 
-               alt="analize-2019">
-      
-      <p>Duomenų analizės teorija<br>(2019)</p>
-	  <!-- <p>Duomenų analizės pagrindai<br>(2019)</p> -->
 
-	  </a>
-      
-    </div>
-  
-  
     <div class="col-sm-4 col-centered zoom">
-      <a href="https://mokymai.github.io/r-2019"> 
-          <!-- <img src="https://mokymai.github.io/pratybos/fig/logo-biostat-4cr-faded.png"  -->
-		  <img src="fig/logo-R.png" 
-               class="center-block margin" 
-               style="width:57%" 
-               alt="analize-2019">
-      
-      <p>Duomenų analizė programa „R“<br>(2019)</p>
-	  <!-- <p>Įvadas į duomenų analizę programa „R“<br>(2019)</p> -->
-
-	  </a>
-      
+      <a href="https://mokymai.github.io/teorija-2020">
+        <img src="fig/logo-biostat-4cr.png" class="center-block img-circle margin" style="width:65%" alt="bs-2020">
+        <p>Duomenų analizės teorija<br>(2020)</p>
+      </a>
     </div>
 
-
+    <div class="col-sm-4 col-centered zoom">
+      <a href="https://mokymai.github.io/pratybos-2020">
+        <img src="fig/logo-R.png" class="center-block margin" style="width:57%" alt="r-2020">
+        <p>Duomenų analizė programa „R“<br>(2020)</p>
+        <!-- <p>Įvadas į duomenų analizę programa „R“<br>(2019)</p> -->
+      </a>
+    </div>
   </div>
-    <!--
+  <!--
     <div class="col-sm-4 col-centered zoom">
-      <a href="https://mokymai.github.io/rcmdr-2019"> 
-           <img src="https://mokymai.github.io/pratybos/fig/logo-biostat-4cr-faded.png"  
-		  <img src="fig/logo-biostat-4cr.png" 
-               class="center-block img-circle margin" 
-               style="width:65%" 
+      <a href="https://mokymai.github.io/rcmdr-2019">
+           <img src="https://mokymai.github.io/pratybos/fig/logo-biostat-4cr-faded.png"
+		  <img src="fig/logo-biostat-4cr.png"
+               class="center-block img-circle margin"
+               style="width:65%"
                alt="analize-2019">
-      
       <p>R Commander<br>(2019)</p>
 	  </a>
-      
     </div>
     -->
-    
-    
-  </div>
+</div>
 </div>
 
 <!-- Container: B -->
@@ -248,57 +224,97 @@ p {font-size: 20px;}
 <div class="container-fluid bg-4 text-center" id="buves">
   <h3 class="margin">Pasibaigę kursai</h3>
   <div class="row row-centered">
-  
-      <div class="col-sm-4 col-centered">
-      <!-- <a href="https://mokymai.github.io/biostatistika-2019">  -->
-          <!-- <img src="https://mokymai.github.io/pratybos/fig/logo-biostat-4cr-faded.png"  -->
-		  <img src="fig/off.png" 
-               class="center-block img-circle margin zoom" 
-               style="width:35%" 
+    <div class="col-sm-4 col-centered zoom">
+      <a href="https://mokymai.github.io/analize-2019" rel="nofollow">
+        <!-- <img src="https://mokymai.github.io/pratybos/fig/logo-biostat-4cr-faded.png"  -->
+        <img src="fig/logo-biostat-4cr.png" class="center-block img-circle margin" style="width:35%" alt="analize-2019">
+        <p>Duomenų analizės teorija<br>(2019 ruduo)</p>
+      </a>
+    </div>
+
+    <div class="col-sm-4 col-centered zoom">
+      <a href="https://mokymai.github.io/r-2019" rel="nofollow">
+        <!-- <img src="https://mokymai.github.io/pratybos/fig/logo-biostat-4cr-faded.png"  -->
+        <img src="fig/logo-R.png" class="center-block margin" style="width:30%" alt="analize-2019">
+        <p>Duomenų analizė programa „R“<br>(2019 ruduo)</p>
+        <!-- <p>Įvadas į duomenų analizę programa „R“<br>(2019)</p> -->
+      </a>
+    </div>
+
+  </div>
+  <!--
+    <div class="col-sm-4 col-centered zoom">
+      <a href="https://mokymai.github.io/rcmdr-2019">
+           <img src="https://mokymai.github.io/pratybos/fig/logo-biostat-4cr-faded.png"
+		  <img src="fig/logo-biostat-4cr.png"
+               class="center-block img-circle margin"
+               style="width:65%"
+               alt="analize-2019">
+
+      <p>R Commander<br>(2019)</p>
+	  </a>
+
+    </div>
+    -->
+
+</div>
+</div>
+
+<!-- Container: C -->
+<!--
+<div class="container-fluid bg-4 text-center" id="buves">
+  <div class="row row-centered">
+
+      <div class="col-sm-4 col-centered"> -->
+<!-- <a href="https://mokymai.github.io/biostatistika-2019">  -->
+<!-- <img src="https://mokymai.github.io/pratybos/fig/logo-biostat-4cr-faded.png"  -->
+<!--		  <img src="fig/off.png"
+               class="center-block img-circle margin zoom"
+               style="width:35%"
                alt="Biostatistika-2019">
-      
+
       <p>Biostatistika ir biometrija<br>(2019 pavasaris)</p>
-	  <!-- </a> -->
-      
+	  </a>
     </div>
-  
+-->
+<!--
     <div class="col-sm-4 col-centered">
-       <!-- <a href="https://mokymai.github.io/r-2018">  -->
+        <a href="https://mokymai.github.io/r-2018">
           <img src="fig/off.png"
-               class="center-block margin zoom" 
-               style="width:30%" 
+               class="center-block margin zoom"
+               style="width:35%"
                alt="R-2018">
-       
+
       <p>Įvadas į duomenų analizę programa „R“<br>(2018)</p>
-	  <!-- </a> -->
-    </div>
-  
-  <!-- 
+	  </a>
+    </div> -->
+
+<!--
     <div class="col-sm-4 col-centered">
-      <a href="https://mokymai.github.io/pratybos-biostatistika-2018"> 
-          <img src="https://mokymai.github.io/pratybos/fig/logo-biostat-4cr-faded.png"  
-		  <img src="fig/logo-biostat-4cr.png" 
-               class="center-block img-circle margin zoom" 
-               style="width:35%" 
+      <a href="https://mokymai.github.io/pratybos-biostatistika-2018">
+          <img src="https://mokymai.github.io/pratybos/fig/logo-biostat-4cr-faded.png"
+		  <img src="fig/logo-biostat-4cr.png"
+               class="center-block img-circle margin zoom"
+               style="width:35%"
                alt="Biostatistika-2018">
-      
+
       <p>Biostatistika ir biometrija<br>(2018)</p>
 	  </a>
-      
+
     </div>-->
 <!--
     <div class="col-sm-4 col-centered">
-       <a href="https://mokymai.github.io/pratybos-r-2017"> 
+       <a href="https://mokymai.github.io/pratybos-r-2017">
           <img src="fig/logo-R-2.png"
-               class="center-block img-circle margin zoom" 
-               style="width:35%" 
+               class="center-block img-circle margin zoom"
+               style="width:35%"
                alt="R-2017">
-       
+
       <p>Įvadas į duomenų analizę programa „R“<br>(2017)</p>
 	  </a>
     </div>
 -->
-  </div>
+</div>
 </div>
 
 
@@ -309,4 +325,5 @@ p {font-size: 20px;}
 </footer>
 
 </body>
+
 </html>
